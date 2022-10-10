@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+:root{
+    font-family: 'Dancing Script', cursive;
+    --main-container:#F2D388;
+    background-color: #F9F9F9;
+    --block-color:#1572A1;
+    --button-color:#525E75;
+    --text-color:white;
+    --tomato-color:tomato;
+    --purple-color:#B1B2FF;
+    --green-color:#D3E4CD;
+}
+h3{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.container{
+    background-color: var(--main-container);
+    border-radius:10px;
+    position: absolute;
+    border:1px solid;
+    width: 40%;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+.form-container{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+textarea{
+    margin: auto;
+    position: relative;
+    width: 40%;
+    height: 15vh;
+    /* display: block; */
+}
+
+.form{
+    margin: 15px;
+}
+.feedback{
+    position: absolute;
+    text-align: center;
+}
+
+.blocks{
+
+    background-color: var(--block-color);
+    border-radius:2px ;
+    position:absolute ;
+    left: 2%;
+    top: 0;
+    width: 10px;
+    height: 30px;
+}
+button{
+    font-family: inherit;
+    background-color: var(--button-color);
+    color: var(--text-color);
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: block;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 100px;
+    margin: 5px;
+    height: 5vh;
+
+}
+ul{
+    list-style: none;
+}
+.color-container{
+    position: absolute;
+    left:100%;
+    top: 50%;
+    transform: translate(-100%,-25%);
+}
+
+.shape{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+.tomato{
+    background-color: var(--tomato-color);
+}
+
+.purple{
+    background-color: var(--purple-color);
+}
+
+.green{
+    background-color:var(--green-color) ;
+}
+
+input{
+    outline: none;
+    border: 1.5px solid;
+    background-color: inherit;
+}
